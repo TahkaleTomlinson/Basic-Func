@@ -26,6 +26,14 @@ def calc():
     elif operator == "*":
        answer = n1 * n2
        print(n1, "*", n2, "=", answer)
-
+       
+def date():
+    WD= input("What is the wanted date")
+    Dates = ["2/10/2022", "2/11/2022", "2/12/2022"]
+    if WD == Yesterday:
+        print(Dates[0])
+#Func Caller
 if function == "Calc":
     calc()
+if function == "Date":
+    date()
